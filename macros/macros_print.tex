@@ -1,7 +1,7 @@
 \usepackage{array}
 \usepackage{nudi}
 %\usepackage[none]{hyphenat}
-\def\S{\char'263}
+\def\s{\char'263}
 \def\goodbreak{\par\penalty-300 }
 \pretolerance=9000
 
@@ -20,7 +20,7 @@ headheight=5mm,headsep=5mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
 \renewcommand{\footrulewidth}{0pt}
 \chead[]{}
 \lhead[\footnotesize\rm\thepage]{\footnotesize\bfseries\rightmark} 
-\rhead[{\footnotesize\bfseries\puranam}]{\footnotesize\rm\thepage}
+\rhead[]{\footnotesize\rm\thepage}
 \cfoot[]{}
 \rfoot[]{}
 
@@ -78,12 +78,8 @@ headheight=5mm,headsep=5mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
   {\parindent \z@ \centering \normalfont
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
-        %\LARGE\bfseries \@chapapp\space \thechapter
-        {\large\bf || shirxVH ||}\\[-4pt]
-        \rule{0.8cm}{0.4pt}\\[10pt]
-        {\Large\bf \hdr}
+        \LARGE\bfseries \@chapapp\space \thechapter
         \par\nobreak
-        \vskip 5\p@
       \fi
     \fi
     \interlinepenalty\@M
@@ -100,11 +96,13 @@ headheight=5mm,headsep=5mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
 \def\shloka{\bgroup\refstepcounter{shloka}\label{\thechapter shlokano\theshloka}\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces}
 \def\endshloka{\hfill||$\thinspace${\fontfamily{txr}\fontsize{10}{12}\selectfont\theshloka}$\thinspace$||\egroup\egroup\par}
 
-\def\shl{\bgroup\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces}
+\def\shl{\bgroup\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces\obeylines}
 \def\endshl{\hfill\egroup\egroup\par\smallskip}
 
-\def\artha{\medbreak\bgroup\ignorespaces}
+\def\artha{\medbreak\bgroup\ignorespaces\raggedright}
 \def\endartha{\par\egroup\medbreak}
+
+\long\def\vishaya#1{\goodbreak{\bf\noindent #1}\par\medbreak}
 
 \long\def\chapterartha#1{\begin{center}#1\end{center}}
 \long\def\endchapter#1{\begin{center}\bf #1\end{center}}
