@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2013.2.28)  6 JUL 2015 12:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=latex 2013.2.28)  7 JUL 2015 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -257,31 +257,91 @@ rx) \OT1/ndi/m/n/9 ' eMdu shurxtiyu aMthaHkaraNa vaqtitx jAcnxnaveMba
  []
 
 [5] [6]
-Underfull \hbox (badness 1571) in paragraph at lines 375--375
+Underfull \hbox (badness 1571) in paragraph at lines 376--376
 [][]\OT1/ndi/m/n/9 ililx upalabadhxH eMdu modalu heVLidadxriMda yAvudAdaroMdu v
 asutx ide enunxvudakekx
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 375--375
+Underfull \hbox (badness 6364) in paragraph at lines 376--376
 \OT1/ndi/m/n/9 moTaTxmodalu namage anuBavadalilx kANabeVku, anaMtarave ide eMdU
 , anaMtara adu
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 375--375
+Underfull \hbox (badness 1221) in paragraph at lines 376--376
 \OT1/ndi/m/n/9 anuBavavAguvudu, hiMduhiMdina aMshagaLanunx biTuTx muMdu muMdina
  viSayavu anuBavakekx
  []
 
-[7]) (./mainfile.aux) ) 
+
+Underfull \hbox (badness 2478) in paragraph at lines 376--376
+\OT1/ndi/m/n/9 baruvudilalx, adariMda elalxvU idaraMte saMvitetxMbudu nitayxceY
+tanAyxnuBava rUpaveMdu parxtayxkaSx
+ []
+
+[7] [8]
+Overfull \hbox (0.68182pt too wide) in paragraph at lines 470--470
+\OT1/ndi/bx/n/10.95 parxmANagaLu savxviSayadalilx mAtarx boVd‘hisalu samath‘aR‘
+vA‘giveyeM‘bu‘dakekx daqSATxM‘tavidu
+ []
+
+[9] [10] [11] [12] [13]
+Underfull \hbox (badness 6204) in paragraph at lines 788--788
+\OT1/ndi/bx/n/10.95 IvaregU `(saMsakxqqta sholxVka/maMtarx) ' itAyxdi vAkayxvu 
+niviRsheVSa parxtayxgAtamx
+ []
+
+[14] [15] [16] [17]
+Underfull \hbox (badness 1389) in paragraph at lines 1005--1005
+[][]\OT1/ndi/m/n/9 barxhamxcAsw loVkashacx eMdu vi‘garx‘hamADi barx‘hamxloVkaHv
+eMba samAsa mAD‘abeVku, barx‘hamxveMba
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 1030--1030
+\OT1/ndi/m/n/9 iTuTxkoLaLxbeVkeMbudoMdeV AkAMkeSxyide, saMnihitavAda loVka shab
+adxda sahakAradiMda parxthamA
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 1030--1030
+\OT1/ndi/m/n/9 viBakitxya athaRvanunx viBakitxyanunx kalipxsuvudu nAyxyavalalx,
+ barxhamx viSayaveV parxsutxtavAgiruvAga
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 1059--1059
+\OT1/ndi/m/n/9 budeu vishiV‘SaNa, GaTaveM‘budu vi‘sheVSayx, barx‘hamx‘pada loVk
+a‘pada‘gaLige samAna viBak‘itxyA‘giru‘
+ []
+
+[18] [19] [20]
+Overfull \hbox (5.82378pt too wide) in paragraph at lines 1154--1154
+\OT1/ndi/bx/n/10.95 barxhamxloVka eM‘budu moVkaSxveM‘darU ka‘maRPalavAda savx‘g
+aR‘daMte ade‘Vke ? ka‘maRPalavalalax
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 1165--1165
+\OT1/ndi/bx/n/10.95 loVkavu kamaRdiMda sAdhisi baruva PalaveMbudu parxsidadhxvA
+giruvudariMa I
+ []
+
+[21] [22] [23]
+Underfull \hbox (badness 1960) in paragraph at lines 1323--1323
+\OT1/ndi/bx/n/10.95 muMde `(saMsakxqqta sholxVka/maMtarx) ' eMbudAgi mAdhayxMdi
+na shAKeya pAThadalilx
+ []
+
+) [24] (./mainfile.aux) ) 
 Here is how much of TeX's memory you used:
  1681 strings out of 493489
  24519 string characters out of 3141370
- 78628 words of memory out of 3000000
+ 81628 words of memory out of 3000000
  4991 multiletter control sequences out of 15000+200000
  19329 words of font info for 38 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,12n,43p,289b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on mainfile.dvi (9 pages, 30548 bytes).
+Output written on mainfile.dvi (26 pages, 87424 bytes).
