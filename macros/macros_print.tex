@@ -7,11 +7,9 @@
 \def\goodbreak{\par\penalty-300 }
 \pretolerance=9000
 
-\usepackage[papersize={140mm,215mm},textwidth=105mm,textheight=170mm,
-topmargin=18mm,botmargin=11mm,leftmargin=18mm,rightmargin=17mm,
-headheight=5mm,headsep=5mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
-
-
+\usepackage[papersize={140mm,215mm},textwidth=100mm,textheight=170mm,
+topmargin=18mm,botmargin=11mm,leftmargin=20mm,rightmargin=20mm,
+headheight=6mm,headsep=4mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
@@ -99,9 +97,9 @@ headheight=5mm,headsep=5mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
 \def\endshloka{\hfill||$\thinspace${\fontfamily{txr}\fontsize{10}{12}\selectfont\theshloka}$\thinspace$||\egroup\egroup\par}
 
 \def\shl{\bgroup\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces\obeylines}
-\def\endshl{\hfill\egroup\egroup\par\smallskip}
+\def\endshl{\par\egroup\egroup\medbreak}
 
-\def\artha{\medbreak\bgroup\ignorespaces\raggedright}
+\def\artha{\bgroup\ignorespaces}%\raggedright}
 \def\endartha{\par\egroup\medbreak}
 
 \long\def\vishaya#1{\goodbreak{\bf\noindent #1}\par\medbreak}
@@ -112,4 +110,4 @@ headheight=5mm,headsep=5mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
 \long\def\endchapterartha#1{\begin{center}#1\end{center}}
 \def\uvaca#1{\goodbreak\centerline{{\large\textbf{#1}}}\medskip\par}
 
-\pretolerance=9000
+%\pretolerance=9000
