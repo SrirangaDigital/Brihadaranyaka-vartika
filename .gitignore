@@ -1,5 +1,6 @@
 pdf/
 shloka/
+*/*.pdf
 */*.aux
 */*.log
 */*.ps
