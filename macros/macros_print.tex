@@ -109,5 +109,6 @@ headheight=6mm,headsep=4mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
 \long\def\endchapter#1{\begin{center}\bf #1\end{center}}
 \long\def\endchapterartha#1{\begin{center}#1\end{center}}
 \def\uvaca#1{\goodbreak\centerline{{\large\textbf{#1}}}\medskip\par}
-
-%\pretolerance=9000
+\input dnmacs
+\tolerance=4000
+\defaulthyphenchar=32
