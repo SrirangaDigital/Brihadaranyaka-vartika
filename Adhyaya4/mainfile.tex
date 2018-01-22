@@ -6,6 +6,28 @@
 \input dictionary
 \begin{document}
 
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \centering \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \LARGE\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+      \fi
+    \fi
+    \interlinepenalty\@M
+    %\LARGE \bfseries #1\par\nobreak
+ \vskip 10\p@  
+  }}
+\makeatother
+
+
+\chead[]{}
+\lhead[\footnotesize\rm\thepage]{\footnotesize\bfseries\rightmark} 
+\rhead[\footnotesize\bfseries sureVshavxra vAtiRka]{\footnotesize\rm\thepage}
+\cfoot[]{}
+\rfoot[]{}
 
 %\tableofcontents
 %\newpage
@@ -14,9 +36,6 @@
 \setcounter{chapter}{3}
 \input ../023/023.tex
 \input ../026a/026a.tex
-\input ../024/024.tex
-\input ../025/025.tex
-\input ../026/026.tex
 \input ../027/027.tex
 %~ \input ../028/028.tex
 \input ../029/029.tex
@@ -42,6 +61,8 @@
 \input ../050/050.tex
 \input ../051/051.tex
 \input ../052/052.tex
-
+\input ../024/024.tex
+\input ../025/025.tex
+\input ../026/026.tex
 
 \end{document}
