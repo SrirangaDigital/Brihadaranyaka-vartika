@@ -99,8 +99,8 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \def\artha{\bgroup\ignorespaces}%\raggedright}
 \def\endartha{\par\egroup\medbreak}
 
-\long\def\kandike#1{\goodbreak{\noindent\normalfont\large\bfseries #1}\par\medbreak}
-\long\def\vishaya#1{\goodbreak{\bf\noindent #1}\par\medbreak}
+\long\def\kandike#1{\goodbreak{\noindent\normalfont\large\bfseries #1\addcontentsline{toc}{section}{{\bf #1}}}\par\medbreak}
+\long\def\vishaya#1{\goodbreak{\bf\noindent #1\addcontentsline{toc}{subsection}{#1}}\par\medbreak}
 \long\def\stext{\textbf{(saMsakxqqta sholxVka/maMtarx) }}
 
 \long\def\chapterartha#1{\begin{center}#1\end{center}}
