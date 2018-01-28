@@ -16,8 +16,8 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \renewcommand\chaptermark[1]{\markboth{}{#1}}
 
 \chead[]{}
-\lhead[\footnotesize\rm\thepage]{\footnotesize\bfseries nAlakxne adhAyxya SaDAtAyaR bArxhamxNa} 
-\rhead[\footnotesize\bfseries nAlakxne adhAyxya SaDAtAyaR bArxhamxNa]{\footnotesize\rm\thepage}
+\lhead[\footnotesize\rm\thepage]{\footnotesize\bfseries } 
+\rhead[\footnotesize\bfseries ]{\footnotesize\rm\thepage}
 \cfoot[]{}
 \rfoot[]{}
 
@@ -75,8 +75,8 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
   {\parindent \z@ \centering \normalfont
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
-        \LARGE\bfseries \@chapapp\space \thechapter
-        \par\nobreak
+       % \LARGE\bfseries \@chapapp\space \thechapter
+        %\par\nobreak
       \fi
     \fi
     \interlinepenalty\@M
@@ -99,7 +99,8 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \def\artha{\bgroup\ignorespaces}%\raggedright}
 \def\endartha{\par\egroup\medbreak}
 
-\long\def\vishaya#1{\goodbreak{\bf\noindent #1}\par\medbreak}
+\long\def\kandike#1{\goodbreak{\noindent\normalfont\large\bfseries #1\addcontentsline{toc}{section}{{\bf #1}}}\par\medbreak}
+\long\def\vishaya#1{\goodbreak{\bf\noindent #1\addcontentsline{toc}{subsection}{#1}}\par\medbreak}
 \long\def\stext{\textbf{(saMsakxqqta sholxVka/maMtarx) }}
 
 \long\def\chapterartha#1{\begin{center}#1\end{center}}
