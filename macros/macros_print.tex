@@ -90,10 +90,10 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 
 \newcounter{shloka}[chapter]
 
-\def\shloka{\bgroup\refstepcounter{shloka}\label{\thechapter shlokano\theshloka}\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces}
+\def\shloka{\bgroup\refstepcounter{shloka}\label{\thechapter shlokano\theshloka}\noindent\raggedright\leftskip=17pt\bgroup\bfseries\ignorespaces}
 \def\endshloka{\hfill||$\thinspace${\fontfamily{txr}\fontsize{10}{12}\selectfont\theshloka}$\thinspace$||\egroup\egroup\par}
 
-\def\shl{\bgroup\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces\obeylines}
+\def\shl{\bgroup\noindent\raggedright\leftskip=17pt\bgroup\bfseries\ignorespaces\obeylines}
 \def\endshl{\par\egroup\egroup\medbreak}
 
 \def\artha{\bgroup\ignorespaces}%\raggedright}
