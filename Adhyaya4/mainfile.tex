@@ -1,27 +1,7 @@
 \documentclass[11pt,openany]{book}
-\usepackage{devanagari}
-\font\dn = dvng10 at 9pt
-
 \input ../macros/macros_print
 \input dictionary
 \begin{document}
-
-\makeatletter
-\def\@makechapterhead#1{%
-  \vspace*{10\p@}%
-  {\parindent \z@ \centering \normalfont
-    \ifnum \c@secnumdepth >\m@ne
-      \if@mainmatter
-        \LARGE\bfseries \@chapapp\space \thechapter
-        \par\nobreak
-      \fi
-    \fi
-    \interlinepenalty\@M
-    %\LARGE \bfseries #1\par\nobreak
- \vskip 10\p@  
-  }}
-\makeatother
-
 
 \chead[]{}
 \lhead[\footnotesize\rm\thepage]{\footnotesize\bfseries\rightmark} 
@@ -33,18 +13,12 @@
 \newpage
 
 \mainmatter
-\setcounter{chapter}{3}
-
 \input vartikasaramsha
 \input brahmana1
 \input brahmana2
 \input brahmana3
 \input brahmana4
 \input brahmana5
-
-
-
-
 
 %~ \input ../023/023.tex
 %~ \input ../026a/026a.tex
