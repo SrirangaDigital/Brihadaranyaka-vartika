@@ -14,7 +14,7 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \usepackage{footmisc}
-
+\renewcommand\contentsname{viSayAnukarxmaNikA}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand\chaptermark[1]{\markboth{}{#1}}
 
@@ -25,6 +25,7 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \rfoot[]{}
 
 \def\mdash{ {\rm ---} }
+\def\ndash{ {\rm --} }
 
 \fancypagestyle{plain}{%
 \chead[]{}
@@ -46,7 +47,7 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
       \leavevmode \bfseries
       \advance\leftskip\@tempdima
       \hskip -\leftskip
-      #1\nobreak\hfil \nobreak\hb@xt@\@pnumwidth{\hss\rm #2}\par
+      #1\nobreak\hfil \nobreak\hb@xt@\@pnumwidth{\hss #2}\par
       \penalty\@highpenalty
     \endgroup
   \fi}
@@ -56,7 +57,7 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
                          \refstepcounter{chapter}%
                          \typeout{\@chapapp\space\thechapter.}%
                          \addcontentsline{toc}{chapter}%
-                                   {\protect\numberline{\rm\bfseries\thechapter}#1}%
+                                   {\protect\numberline{\bfseries\thechapter}#1}%
                        \else
                          \addcontentsline{toc}{chapter}{#1}%
                        \fi
@@ -80,15 +81,28 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
       \if@mainmatter
        % \LARGE\bfseries \@chapapp\space \thechapter
         %\par\nobreak
+        {\large\bf || shirxV dakiSxNAmUtaRyeV namaH ||}\par
       \fi
     \fi
     \interlinepenalty\@M
     \LARGE \bfseries #1\par\nobreak
 \vskip 5pt
-
 %\hrule height 2pt   
  \vskip 10\p@  
   }}
+  
+ \renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\contentsname
+        \@mkboth{%
+           \contentsname}{\contentsname}}%
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    } 
 \makeatother
 
 \newcounter{shloka}[chapter]
@@ -106,7 +120,7 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \def\endartha{\par\egroup\medbreak}
 
 \long\def\kandike#1{\goodbreak{\noindent\normalfont\large\bfseries #1\addcontentsline{toc}{section}{{\bf #1}}}\par\medbreak}
-\long\def\vishaya#1{\goodbreak{\bf\noindent #1\addcontentsline{toc}{subsection}{#1}}\par\medbreak}
+\long\def\vishaya#1{\goodbreak{\bf\noindent #1\addcontentsline{toc}{subsection}{$\bullet$ #1}}\par\medbreak}
 \long\def\stext{\textbf{(saMsakxqqta sholxVka/maMtarx) }}
 
 \long\def\chapterartha#1{\begin{center}#1\end{center}}
