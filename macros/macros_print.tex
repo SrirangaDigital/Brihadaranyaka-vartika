@@ -120,7 +120,17 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \def\endartha{\par\egroup\medbreak}
 
 \long\def\kandike#1{\goodbreak{\noindent\normalfont\large\bfseries #1\addcontentsline{toc}{section}{{\bf #1}}}\par\medbreak}
-\long\def\vishaya#1{\goodbreak{\bf\noindent #1\addcontentsline{toc}{subsection}{$\bullet$ #1}}\par\medbreak}
+
+\def\vishaya{\futurelet\new\macA}
+
+\def\macA{\ifx\new[\let\next=\vishayafirst 
+\else
+  \let\next=\vishayasecond
+\fi 
+\next}
+
+\long\def\vishayafirst[#1]#2{\goodbreak{\bf\noindent #2\addcontentsline{toc}{subsection}{$\bullet$ #1}}\par\medbreak}
+\long\def\vishayasecond#1{\goodbreak{\bf\noindent #1\addcontentsline{toc}{subsection}{$\bullet$ #1}}\par\medbreak}
 \long\def\stext{\textbf{(saMsakxqqta sholxVka/maMtarx) }}
 
 \long\def\chapterartha#1{\begin{center}#1\end{center}}
