@@ -6,5 +6,6 @@ shloka/
 */*.ps
 */*.dvi
 */*.toc
+*/*.out
 */*.*~
 
