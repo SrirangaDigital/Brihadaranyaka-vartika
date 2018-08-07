@@ -103,6 +103,10 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
     \@starttoc{toc}%
     \if@restonecol\twocolumn\fi
     } 
+
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\thispagestyle{empty}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+    
 \makeatother
 
 \newcounter{shloka}[chapter]
@@ -119,7 +123,7 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \def\artha{\bgroup\ignorespaces}%\raggedright}
 \def\endartha{\par\egroup\medbreak}
 
-\long\def\kandike#1{\goodbreak{\noindent\normalfont\large\bfseries #1\addcontentsline{toc}{section}{{\bf #1}}}\par\medbreak}
+\long\def\kandike#1{\goodbreak{\noindent\normalfont\large\bfseries #1\addcontentsline{toc}{subsection}{{$\bullet$ #1}}}\par\medbreak}
 
 \def\vishaya{\futurelet\new\macA}
 
@@ -129,8 +133,9 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \fi 
 \next}
 
-\long\def\vishayafirst[#1]#2{\goodbreak{\bf\noindent #2\addcontentsline{toc}{subsection}{$\bullet$ #1}}\par\medbreak}
-\long\def\vishayasecond#1{\goodbreak{\bf\noindent #1\addcontentsline{toc}{subsection}{$\bullet$ #1}}\par\medbreak}
+\long\def\brahmana#1{\goodbreak{\bf\noindent #1}\addcontentsline{toc}{subsection}{$\bullet$ #1}\par\medbreak}
+\long\def\vishayafirst[#1]#2{\goodbreak{\bf\noindent #2}\par\medbreak}
+\long\def\vishayasecond#1{\goodbreak{\bf\noindent #1}\par\medbreak}
 \long\def\stext{\textbf{(saMsakxqqta sholxVka/maMtarx) }}
 
 \long\def\chapterartha#1{\begin{center}#1\end{center}}
@@ -140,3 +145,5 @@ headheight=6mm,headsep=4mm,footskip=6mm]{zwpagelayout}
 \input dnmacs
 \tolerance=4000
 \defaulthyphenchar=32
+
+
