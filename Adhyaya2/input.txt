@@ -1,0 +1,12 @@
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/brahmana1.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/brahmana2.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/brahmana3.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/brahmana4.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/brahmana5.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/brahmana6.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/copyright.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/guruprarthana.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/nivedane.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/photos.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/title.tex
+/home/kishor/Projecet/Brihadaranyaka-vartika/Adhyaya2/src/vartikasaramsha.tex
