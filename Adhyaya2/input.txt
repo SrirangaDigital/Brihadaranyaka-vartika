@@ -8,5 +8,6 @@
 /home/kishor/Projects/Brihadaranyaka-vartika/Adhyaya2/src/guruprarthana.tex
 /home/kishor/Projects/Brihadaranyaka-vartika/Adhyaya2/src/nivedane.tex
 /home/kishor/Projects/Brihadaranyaka-vartika/Adhyaya2/src/photos.tex
+/home/kishor/Projects/Brihadaranyaka-vartika/Adhyaya2/src/srimukha.tex
 /home/kishor/Projects/Brihadaranyaka-vartika/Adhyaya2/src/title.tex
 /home/kishor/Projects/Brihadaranyaka-vartika/Adhyaya2/src/vartikasaramsha.tex
