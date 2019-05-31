@@ -18,8 +18,18 @@ while($file)
 	$fileName = $file;
 	open(IN,"<:utf8",$fileName) or die "can't open $fileName\n";
 	
-	@flines = <IN>;
-	
+	#@flines = <IN>;
+	@flines=();
+	$line = <IN>;
+	$dontread = 0;
+	while($line){
+		if($line =~ /\\begin\{(shl)\}/) {$dontread = 1;}
+		if($line =~ /\\end\{(shl)\}/) 	{$dontread = 0;}
+		if(!$dontread){
+			push(@flines,$line);
+		}
+		$line = <IN>;
+	}
 	@lines = (@lines,@flines);
 	
 	$file = <FILES>;
