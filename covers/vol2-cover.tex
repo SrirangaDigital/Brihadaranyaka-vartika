@@ -1,0 +1,228 @@
+\documentclass{book}
+\usepackage[paperwidth=140mm, paperheight=215mm, total={140mm, 215mm}, ignoreheadfoot, footnotesep=6mm plus 4pt minus 4pt, asymmetric]{geometry}
+
+\usepackage{nudi}
+\usepackage{graphicx}
+
+%~ \usepackage{graphicx,changepage}
+%~ \usepackage{fontspec}
+%~ \usepackage{multicol}
+
+%~ \defaultfontfeatures{Ligatures=TeX}
+
+%~ \setmainfont{Lora}
+%~ \setsansfont{Lora}
+
+%~ \parindent=0pt
+%~ \parskip=0pt
+
+
+%~ \newcommand{\adjustimg}{% Horizontal adjustment of image
+  %~ \checkoddpage%
+  %~ \ifoddpage\hspace*{\dimexpr\evensidemargin-\oddsidemargin}\else\hspace*{-\dimexpr\evensidemargin-\oddsidemargin}\fi%
+%~ }
+%~ \newcommand{\centerimg}[2][width=\textwidth]{% Center an image
+  %~ \makebox[\textwidth]{\adjustimg\includegraphics[#1]{#2}}%
+%~ }
+
+%~ \newfontfamily\builtfont{Built Titling}
+%~ \newfontfamily\bebasfont{Bebas Neue}
+%~ \newcommand{\lmss}{\fontfamily{lmss}\selectfont}
+
+%~ \usepackage{xcolor}
+
+%~ \definecolor{cblue}{RGB}{32,118,247}
+%~ \definecolor{cyellow}{RGB}{253,180,5}
+%~ \definecolor{customblue}{RGB}{20,41,48}
+%~ \definecolor{numcolor}{RGB}{185,140,2}
+
+\usepackage[absolute,overlay]{textpos}
+%~ \usepackage{shadowtext}
+%~ \usepackage{tfrupee}
+
+\begin{document}
+\mbox{}\thispagestyle{empty}
+\vskip 1.5cm
+\begin{center}
+{\Huge\bfseries shirxV sureVshavxravAtiRka BASAnuvAda}
+\bigskip
+
+{\Large\bfseries eraDaneV adhAyxya (1-6 bArxhamxNa)}
+\bigskip
+
+{\Large\bfseries saMpuTa nAlukx}
+\vfill
+
+\includegraphics[scale=0.7]{shankaracharya.eps}
+
+\vfill
+
+anuvAdakaru
+\smallskip
+
+{\large\bfseries vidAvxnf ke. kaqSaNxjoVyisf}
+\vskip 2cm
+
+\end{center}
+\end{document}
+
+
+
+%~ {\leftskip=1.25cm\rightskip=1.25cm
+%~ \vbox{%
+%~ \hbox{{\fontsize{25pt}{27pt}\builtfont\bfseries Advanced}}\par
+%~ \hbox{{\fontsize{125pt}{127pt}\bebasfont\bfseries computing \&}}
+%~ \hbox{{\fontsize{100pt}{102pt}\bebasfont\bfseries communications}}
+%~ }}
+
+\noindent
+{\leftskip=1.25cm\rightskip=1.25cm\fontsize{25pt}{27pt}\builtfont\bfseries\color{cblue}{Advanced}\par}
+\vskip -3\baselineskip
+\noindent
+{\leftskip=1.25cm\rightskip=1.25cm\hskip -0.12cm\fontsize{123pt}{125pt}\bebasfont\bfseries\color{cyellow}{computing \&}\par}
+\vskip -2\baselineskip
+\noindent
+{\leftskip=1.25cm\rightskip=1.25cm\hskip -0.1cm\fontsize{100pt}{102pt}\bebasfont\bfseries\color{customblue}{communications}\par} 
+
+\noindent
+{\leftskip=1.25cm\rightskip=1.25cm\color{customblue}{\rule{18.8cm}{0.8pt}}\par} 
+\vskip 5pt
+
+\noindent
+{\leftskip=1.25cm\rightskip=1.25cm
+\hbox to 18.8cm{{\fontsize{13pt}{15pt}\builtfont A Quarterly publication of the advanced computing and communications society\hfill volume 03 issue 01 march 2019}}\par}
+\vskip -0.4\baselineskip
+
+\noindent
+{\leftskip=1.25cm\rightskip=1.25cm\color{customblue}{\rule{18.8cm}{0.8pt}}\par} 
+\vskip 0.2cm
+
+{\leftskip=1.25cm
+\rightskip=1.25cm
+	\begin{minipage}[t]{1.2cm}\hbox{\raise18pt\hbox{\begin{tabular}[t]{@{}p{1.2cm}@{}}{\fontsize{40pt}{34pt}\builtfont\color{numcolor}{23}}\end{tabular}}}\end{minipage}\begin{minipage}[t]{5.5cm}\begin{tabular}[t]{@{}p{5.3cm}@{}}{\fontsize{16pt}{18pt}\builtfont Experimental learning}\\ {\fontsize{16pt}{18pt}\builtfont of Networking Technologies}\\{\fontsize{9pt}{12pt}\sl Understanding TCP States - Part 2}\end{tabular}\end{minipage}
+	\raise15pt\hbox{\longvdots{2.3cm}}\quad
+	\begin{minipage}[t]{1.2cm}\hbox{\raise18pt\hbox{\begin{tabular}[t]{@{}p{1.2cm}@{}}{\fontsize{40pt}{34pt}\builtfont\color{numcolor}{36}}\end{tabular}}}\end{minipage}\begin{minipage}[t]{5.5cm}\begin{tabular}[t]{@{}p{6cm}@{}}{\fontsize{16pt}{18pt}\builtfont AN OVERVIEW OF AUTHENTICATION}\\{\fontsize{16pt}{18pt}\builtfont FOR COMPUTER COMMUNICATIONS}\end{tabular}\end{minipage}
+	\raise15pt\hbox{\longvdots{2.3cm}}\quad
+	\begin{minipage}[t]{1.2cm}\hbox{\raise18pt\hbox{\begin{tabular}[t]{@{}p{1.2cm}@{}}{\fontsize{40pt}{34pt}\builtfont\color{numcolor}{58}}\end{tabular}}}\end{minipage}\begin{minipage}[t]{5.5cm}\begin{tabular}[t]{@{}p{5.4cm}@{}}{\fontsize{16pt}{18pt}\builtfont AI POWERED SOCIETY}\end{tabular}\end{minipage}
+\par}
+
+\setbox0 = \hbox{\color{white}{{\fontsize{50pt}{77pt}\builtfont\bfseries ERASURE CODING FOR BIG DATA}}}
+\newdimen\mydimen
+\newdimen\offset
+\mydimen = \textwidth
+\advance\mydimen - \wd0
+\divide\mydimen by 2 
+\message{\the\wd0}
+\message{\the\textwidth}
+\message{\the\mydimen}
+\message{\the\offset}
+
+\vfill
+
+\noindent\centerimg[width=\paperwidth,height=16cm]{src/Figures/shutterstock_1019422270.jpg}
+
+
+\setlength{\TPHorizModule}{\textwidth}
+\setlength{\TPVertModule}{\textwidth}
+\begin{textblock}{0.85}(0.12,0.65)
+\shadowoffsetx{-0.75pt}
+\shadowoffsety{1pt}
+\shadowcolor{blue}
+\shadowtext{\color{white}{\fontsize{50pt}{77pt}\builtfont\bfseries ERASURE CODING FOR BIG DATA}}
+%~ \color{white}{{\fontsize{50pt}{77pt}\builtfont\bfseries ERASURE CODING FOR BIG DATA}}
+\end{textblock}
+
+\begin{textblock}{0.4}(0.05,1.15)
+\includegraphics[scale=0.02]{src/Figures/QRcodeforissue.png}
+\end{textblock}
+
+\begin{textblock}{0.4}(0.08,1.26)
+{\color{white}{\rupee~100}}
+\end{textblock}
+
+\begin{textblock}{0.4}(0.6,1.1)
+\includegraphics{src/Figures/ACCSwhitelogo.png}
+\end{textblock}
+\clearpage
+\newpage
+
+
+\begin{multicols}{3}
+\begin{minipage}{7.25cm}
+~\vskip 0.5cm
+\begin{center}
+\begin{tabular}{l}
+{\fontsize{14.5pt}{17pt}\builtfont\bfseries\color{customblue}{Advanced}}\\
+{\fontsize{38pt}{40pt}\bebasfont\bfseries\color{cyellow}{computing \&}}\\
+{\fontsize{30pt}{32pt}\bebasfont\bfseries\color{customblue}{communications}}
+\end{tabular}
+\bigskip
+
+{\lmss\bfseries Editors}\\
+Dr. Saragur M. Srinidhi\\
+{\it ACCS}\\[10pt]
+Dr. N. Rama Murthy\\
+{\it Addl. Director (Retd), CAIR (DRDO)}\\[15pt]
+{\lmss\bfseries Editorial Board Members}\\
+Dr. P. V. Ananda Mohan\\
+{\it CDAC}\\[5pt]
+Dr. G. Athithan\\
+{\it DG, MED \& CoS, DRDO}\\[5pt]
+Prof. Jayant R. Haritsa\\
+{\it Professor, CSA, IISc}\\[5pt]
+Prof. V. Kamakoti\\
+{\it Professor, IITM}\\[5pt]
+Prof. H. P. Khincha\\
+{\it Chairman, KSIC}\\[5pt]
+Prof. S. Rajagopalan\\
+{\it Professor, IIITB}\\[5pt]
+Prof. B. Ravindran\\
+{\it Professor, IITM}\\[5pt]
+Prof. S. Sadagopan\\
+{\it Director, IIITB}
+\bigskip
+
+{\it Published by}
+Advanced Computing and\\
+Communications Society\\
+Gate \#2, C. V. Raman Avenue, Indian\\
+Institute of Science, Bangalore 12, India
+\bigskip
+
+A Publication of the ACCS
+
+{\noindent\fcolorbox{white}{blue}{\hbox to6.9cm{\hfill\includegraphics{src/Figures/ACCSwhitelogo1.png}\hfill}}}
+\medskip
+
+{\it http://accsindia.org}\\[2pt]
+{\it Project managed by}\\[2pt]
+Knobly Consulting LLP\\[2pt]
+{\it Printed at}\\[2pt]
+Aditya Graphics \& Printers
+
+\begin{tabular}{@{}l@{}}
+{\scriptsize\it Responsibility for the contents rests upon authors of signed}\\
+{\scriptsize\it articles and not the ACCS or its members. Unless otherwise}\\
+{\scriptsize\it specified, ACCS neither endorses nor sanctions any}\\
+{\scriptsize\it positions or actions advocated in Advanced Computing \&}\\
+{\scriptsize\it Communication. Editorial correspondence may be addressed}\\
+{\scriptsize\it to: Editor, Advanced Computing \& Communication, Gate \#2,}\\
+{\scriptsize\it C. V. Raman Avenue, Indian Institute of Science, Bangalore}\\
+{\scriptsize\it 560012, India or email to: editor@accsindia.org}
+\end{tabular}
+\end{center} 
+\end{minipage}
+\begin{minipage}{0.50cm}
+\color{blue}{\vrule height 26.8cm width 1pt}
+\end{minipage}
+\begin{minipage}{13.25cm}
+{\rightskip=1.25cm\hfill\fcolorbox{cyellow}{white}{{\fontsize{25pt}{27pt}\builtfont\bfseries C\,O\,N\,T\,E\,N\,T\,S}}\par}
+\end{minipage}
+\end{multicols}
+\begin{textblock}{2}(0,1.275)
+\vbox to1.25cm{\hbox to\paperwidth{\color{blue}{\rule{\paperwidth}{0.8pt}}}\vskip -1pt
+\hbox to\paperwidth{\hfill\raise14pt\hbox{Advanced Computing \& Communications | March 2019}\quad\rule{0.8pt}{1.25cm}\quad\raise14pt\hbox{3}\quad}%
+}
+\end{textblock}
+\newpage
+
