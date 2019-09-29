@@ -5,6 +5,8 @@
 \input ../dictionary
 
 \begin{document}
+\fontsize{13pt}{15pt}\selectfont
+
 \frontmatter
 \chead[]{}
 \lhead[\footnotesize\rm\thepage]{\footnotesize\bfseries \rightmark} 
@@ -17,12 +19,23 @@
 \input src/copyright
 \newpage
 \input src/photos
+%~ \newpage
+%~ ~
+%~ \thispagestyle{empty}
+\newpage
+\input src/srimukha
+\newpage
+~
+\thispagestyle{empty}
+\newpage
+\input src/krsrimukha
 \newpage
 \input src/guruprarthana
 \newpage
 \input src/nivedane
 
 \tableofcontents
+\label{prelims:end}
 \newpage
 
 \mainmatter
@@ -59,5 +72,5 @@
 \input ../Adhyaya6/brahmana4.tex
 \input ../Adhyaya6/brahmana5.tex
 
-
+\label{book:end}
 \end{document}
